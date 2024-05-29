@@ -1,5 +1,5 @@
-// src/components/Hero.jsx
 import React from 'react';
+import profileImage from '../assets/Shreedhar Photo.jpg';
 
 function Hero() {
     return (
@@ -23,7 +23,7 @@ function Hero() {
                     <div className="md:w-1/2 flex justify-center mt-10 md:mt-0">
                         <div className="relative w-80 h-80">
                             <img
-                                src='portfolio\src\assets\Shreedhar Photo.jpg'
+                                src={profileImage}
                                 alt="Hero Image"
                                 className="absolute inset-5 w-full h-full object-cover rounded-full border-8 border-white shadow-lg transform transition-transform duration-500 hover:scale-110"
                             />
